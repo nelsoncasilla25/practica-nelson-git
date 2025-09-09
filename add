@@ -1,0 +1,5 @@
+<div class="command-item">
+    <span class="command-name">git checkout -b &lt;nueva-rama&gt;</span>
+    <span class="command-description">Crea y se mueve inmediatamente a una nueva rama.</span>
+    <span class="command-example">Ejemplo: <code class="command-code">git checkout -b feature/login-page</code></span>
+</div>
