@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Guide - Guía Rápida</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Git Guide 🚀</div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#conceptos">Conceptos Clave</a></li>
+                <li><a href="#comandos">Comandos Útiles</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1>Bienvenido a la Guía Rápida de Git</h1>
+            <p>Git es un sistema de control de versiones distribuido que te permite rastrear los cambios en tus archivos y colaborar con otros en un proyecto. ¡Domina los conceptos básicos y mejora tu flujo de trabajo!</p>
+            <button onclick="scrollToSection('comandos')">Ver Comandos</button>
+        </section>
+
+        <section id="conceptos" class="content-section">
+            <h2>Conceptos Clave de Git</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <h3>Repositorio (Repository)</h3>
+                    <p>Un **repositorio** es una carpeta que contiene todos los archivos de tu proyecto y el historial completo de sus cambios. Puede ser local o remoto.</p>
+                </div>
+                <div class="card">
+                    <h3>Commit</h3>
+                    <p>Un **commit** es una instantánea de los archivos de tu proyecto en un momento específico. Es como guardar el progreso de tu trabajo con un mensaje descriptivo.</p>
+                </div>
+                <div class="card">
+                    <h3>Branch (Rama)</h3>
+                    <p>Una **rama** es una línea de desarrollo independiente. Se usa para trabajar en nuevas características o corregir errores sin afectar la versión principal del proyecto.</p>
+                </div>
+                <div class="card">
+                    <h3>Merge</h3>
+                    <p>**Merge** (fusión) es el proceso de combinar los cambios de una rama a otra, integrando el trabajo de diferentes líneas de desarrollo.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="comandos" class="content-section">
+            <h2>Comandos Útiles de Git</h2>
+            <div class="commands-list">
+                <div class="command-item">
+                    <span class="command-name">git init</span>
+                    <span class="command-description">Inicializa un nuevo repositorio Git en la carpeta actual.</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">git clone &lt;url&gt;</span>
+                    <span class="command-description">Crea una copia local de un repositorio remoto.</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">git add .</span>
+                    <span class="command-description">Agrega todos los archivos nuevos o modificados al "área de preparación" (staging area).</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">git commit -m "mensaje"</span>
+                    <span class="command-description">Guarda los cambios del área de preparación con un mensaje descriptivo.</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">git status</span>
+                    <span class="command-description">Muestra el estado de los archivos en el repositorio (modificados, agregados, etc.).</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">git push</span>
+                    <span class="command-description">Sube los commits de tu repositorio local al remoto.</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">git pull</span>
+                    <span class="command-description">Descarga los últimos cambios del repositorio remoto al local.</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Git Guide. ¡Feliz codificación!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
